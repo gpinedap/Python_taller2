@@ -6,7 +6,7 @@ for i in range(n):
 	c=float(raw_input('Entre numero: '))
 	a.append(c)
 	print (a)
-for j in range (1,n-1):
+for j in range (0,n-1):
 	for k in range (j+1, n):
 		
                 if a[k] < a[j]: 
